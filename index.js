@@ -21,9 +21,11 @@ const attack = () => {
     avenger.takeDamage(villain.currentDiceScore);
     villain.takeDamage(avenger.currentDiceScore);
     rendner();
-    const cards = document.querySelectorAll(".card");
-    cards.forEach((card) => card.classList.add("active"));
-
+    setTimeout(() => {
+      const cards = document.querySelectorAll(".card");
+      cards.forEach((card) => card.classList.add("active"));
+      document.querySelector(".game").classList.add("active");
+    }, 100);
     if (avenger.dead) {
       isWaiting = true;
       btn.disabled = true;
@@ -76,7 +78,7 @@ const endGame = () => {
 
   setTimeout(() => {
     location.reload();
-  }, 2500);
+  }, 4500);
 };
 
 btn.addEventListener("click", attack);

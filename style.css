@@ -145,6 +145,9 @@ button:disabled {
   }
   .game {
     flex-direction: column;
+    gap: 2rem;
+  }
+  .game.active {
     gap: 10rem;
   }
 }
