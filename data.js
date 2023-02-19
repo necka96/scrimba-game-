@@ -1,0 +1,55 @@
+const characterData = {
+  ironMan: {
+    name: "Iron-man",
+    avatar: "./images/ironman.jpg",
+    transparent: "./images/ironmantransparent.png",
+    health: 80,
+    diceCount: 3,
+    title: "./images/title.png",
+    currentDiceScore: [],
+  },
+  thor: {
+    name: "Thor",
+    avatar: "./images/thor.jpg",
+    transparent: "./images/thor-transparent.png",
+    health: 70,
+    diceCount: 3,
+    title: "./images/title.png",
+    currentDiceScore: [],
+  },
+  ronin: {
+    name: "Ronin",
+    avatar: "./images/ronin.jpg",
+    transparent: "./images/ronintransparent.png",
+    health: 60,
+    diceCount: 3,
+    title: "./images/title.png",
+    currentDiceScore: [],
+  },
+  loki: {
+    name: "Loki",
+    avatar: "./images/loki.jpg",
+    transparent: "./images/lokitransparent.png",
+    health: 80,
+    diceCount: 1,
+    currentDiceScore: [],
+  },
+  hela: {
+    name: "Hela",
+    avatar: "./images/hela.png",
+    transparent: "./images/helatransparnet.png",
+    health: 90,
+    diceCount: 2,
+    currentDiceScore: [],
+  },
+  thanos: {
+    name: "Thanos",
+    avatar: "./images/thanos.jpg",
+    transparent: "./images/thanostransparent.png",
+    health: 120,
+    diceCount: 3,
+    currentDiceScore: [],
+  },
+};
+
+export default characterData;
